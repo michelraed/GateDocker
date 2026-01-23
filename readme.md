@@ -22,7 +22,7 @@ Escolha o seu sistema operacional abaixo para visualizar as instruções de inst
 
 ## 🛠️ Funcionalidades Principais
 
-* **Limpeza Automática**: Os scripts baixam as imagens oficiais e removem as tags longas, mantendo apenas `gate90:latest` e `gate941:latest`.
+* **Limpeza Automática**: Os scripts baixam as imagens oficiais e removem as tags longas, mantendo apenas `gate92:latest` e `gate941:latest`.
 * **Suporte Gráfico**: Configuração integrada para visualização de simulações via X11 ou VcXsrv.
 * **Persistência de Dados**: O diretório atual de execução é montado como volume, garantindo que arquivos `.mac` sejam lidos e os outputs sejam salvos na sua máquina local.
 
