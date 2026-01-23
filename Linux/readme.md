@@ -78,7 +78,7 @@ nano ~/.bashrc
 
 ```bash
 # Aliases para o GATE Docker
-alias gate90='/caminho/para/os/scripts/runGate90.sh'
+alias gate92='/caminho/para/os/scripts/runGate90.sh'
 alias gate941='/caminho/para/os/scripts/runGate941.sh'
 
 ```

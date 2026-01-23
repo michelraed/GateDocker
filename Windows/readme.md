@@ -37,7 +37,7 @@ Os scripts `.bat` automatizam o processo de *download* das imagens oficiais, ren
 
 ### Opção 1: Instalação Completa (Recomendado)
 
-Para baixar e configurar as versões **9.0** e **9.4.1** sequencialmente:
+Para baixar e configurar as versões **9.2** e **9.4.1** sequencialmente:
 
 * Execute o arquivo: `installGates.bat`
 
@@ -45,7 +45,7 @@ Para baixar e configurar as versões **9.0** e **9.4.1** sequencialmente:
 
 Caso deseje instalar apenas uma versão específica:
 
-* **GATE 9.0:** Execute `install_gate90.bat`
+* **GATE 9.2:** Execute `install_gate92.bat`
 * **GATE 9.4.1:** Execute `install_gate941.bat`
 
 > **✅ Verificação:** Ao final do processo, o script listará automaticamente todas as imagens disponíveis contendo "gate" no nome para confirmar o sucesso da instalação.
@@ -56,12 +56,12 @@ Caso deseje instalar apenas uma versão específica:
 
 Os scripts de execução utilizam **espelhamento de caminho** (*Path Mirroring*). A pasta onde o script for executado no Windows será montada como o diretório de trabalho dentro do Linux/Docker.
 
-### Para rodar o GATE 9.0
+### Para rodar o GATE 9.2
 
 1. Abra o terminal na pasta do seu projeto (onde estão os arquivos `.mac`).
 2. Execute:
 ```bat
-runGate90.bat
+runGate92.bat
 
 ```
 
