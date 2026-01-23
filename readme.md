@@ -12,7 +12,7 @@ Escolha o seu sistema operacional abaixo para visualizar as instruções de inst
 * **Requisitos**: Docker, X11 Server e permissões de grupo.
 * **Destaque**: Instruções para criação de `aliases` no `.bashrc` para facilitar o uso via terminal.
 
-### 🪟 [Windows]([https://github.com/michelraed/GateDocker/blob/main/Windows/readme.md])
+### 🪟 [Windows](https://github.com/michelraed/GateDocker/blob/main/Windows/readme.md)
 
 * **Instalação**: Scripts `.bat` automatizados para CMD/PowerShell.
 * **Requisitos**: Docker Desktop e VcXsrv (XLaunch) configurado.
