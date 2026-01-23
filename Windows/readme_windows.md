@@ -6,22 +6,14 @@ Este guia fornece instruções detalhadas para a instalação e execução do **
 
 Antes de executar os scripts, certifique-se de configurar o ambiente:
 
-1. 
-**Docker Desktop**: Deve estar instalado e em execução.
+1. **Docker Desktop**: Deve estar instalado e em execução.
 
 
-2. 
-**Servidor X (VcXsrv/XLaunch)**: Necessário para a interface gráfica das simulações.
-
+2. **Servidor X (VcXsrv/XLaunch)**: Necessário para a interface gráfica das simulações.
 
 * Ao configurar o **XLaunch**, é obrigatório marcar a opção **"Disable access control"** para permitir a conexão do container.
 
-
-
-
-3. 
-**Configuração de Display**: Os scripts utilizam `host.docker.internal:0.0` para direcionar a interface gráfica ao Windows.
-
+3. **Configuração de Display**: Os scripts utilizam `host.docker.internal:0.0` para direcionar a interface gráfica ao Windows.
 
 
 ---
