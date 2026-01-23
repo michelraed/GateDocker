@@ -1,4 +1,4 @@
-Este guia descreve como instalar e utilizar as versões 9.0 e 9.4.1 do **GATE** (Geant4 Application for Tomographic Emission) via Docker no Linux, utilizando os scripts fornecidos.
+Este guia descreve como instalar e utilizar as versões 9.2 e 9.4.1 do **GATE** (Geant4 Application for Tomographic Emission) via Docker no Linux, utilizando os scripts fornecidos.
 
 ---
 
@@ -30,7 +30,7 @@ chmod +x install_gate_docker.sh
 
 Se desejar apenas uma versão específica, utilize:
 
-* **GATE 9.0:** `./install_gate90.sh`
+* **GATE 9.2:** `./install_gate92.sh`
 * **GATE 9.4.1:** `./install_gate941.sh`
 
 ---
@@ -39,10 +39,10 @@ Se desejar apenas uma versão específica, utilize:
 
 Os scripts de execução (`runGate`) configuram o ambiente gráfico e montam o diretório atual dentro do container.
 
-### 1. GATE 9.0
+### 1. GATE 9.2
 
 ```bash
-chmod +x runGate90.sh
+chmod +x runGate92.sh
 ./runGate90.sh
 
 ```
@@ -91,7 +91,7 @@ source ~/.bashrc
 
 
 
-**Agora você pode iniciar o GATE de qualquer pasta apenas digitando `gate90` ou `gate941` no terminal.**
+**Agora você pode iniciar o GATE de qualquer pasta apenas digitando `gate92` ou `gate941` no terminal.**
 
 ---
 
