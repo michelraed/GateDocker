@@ -3,16 +3,16 @@ echo =========================================
 echo    Iniciando Configuracao do GATE (Completa)
 echo =========================================
 
-REM 1. Processando Gate 9.0
-echo [1/2] Processando Gate 9.0...
-docker pull michelraed/gimn:gate90
+REM 1. Processando Gate 9.2
+echo [1/2] Processando Gate 9.2...
+docker pull michelraed/gate92:gate92
 
 if %ERRORLEVEL% EQU 0 (
-    docker tag michelraed/gimn:gate90 gate90:latest
-    docker rmi michelraed/gimn:gate90
-    echo [OK] Gate 9.0 configurado.
+    docker tag michelraed/gate92:gate92 gate92:latest
+    docker rmi michelraed/gate92:gate92
+    echo [OK] Gate 9.2 configurado.
 ) else (
-    echo [X] Erro ao baixar Gate 9.0
+    echo [X] Erro ao baixar Gate 9.2
 )
 
 echo -----------------------------------------

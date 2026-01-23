@@ -54,7 +54,7 @@ RUN wget https://github.com/OpenGATE/Gate/archive/refs/tags/v9.4.1.tar.gz \
 WORKDIR /opt/gate-build
 RUN cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/opt/gate-install \
           -DGeant4_DIR=/opt/geant4-install/lib/cmake/Geant4 \
-          -DGATE_USE_ITK=ON -DGATE_USE_XRAYLIB=ON -DXRAYLIB_DIR=/usr/local \
+          -DGATE_USE_ITK=ON -DGATE_USE_XRAYLIB=ON -DXRAYLIB_DIR=/usr/local -DGATE_USE_OPTICAL=ON\
           -DGATE_USE_GEANT4_UIVIS=ON ../gate-source/Gate-9.4.1 \
     && make -j$(nproc) && make install
 

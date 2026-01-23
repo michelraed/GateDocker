@@ -1,6 +1,6 @@
 @echo off
 echo =========================================
-echo    Iniciando GATE 9.4.1 (Caminho Espelhado)
+echo    Iniciando GATE 9.4.1
 echo =========================================
 echo Certifique-se que o VcXsrv (XLaunch) esta rodando com "Disable access control" marcado.
 

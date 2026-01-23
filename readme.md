@@ -1,6 +1,6 @@
 # GATE Docker Simulation Environment
 
-Este repositório contém scripts de automação para instalar e executar o **GATE (Geant4 Application for Tomographic Emission)** versões 9.0 e 9.4.1 utilizando Docker. O ambiente está configurado para suportar interface gráfica e mapeamento automático de arquivos locais.
+Este repositório contém scripts de automação para instalar e executar o **GATE (Geant4 Application for Tomographic Emission)** versões 9.2 e 9.4.1 utilizando Docker. O ambiente está configurado para suportar interface gráfica e mapeamento automático de arquivos locais.
 
 ## 📂 Estrutura do Repositório
 

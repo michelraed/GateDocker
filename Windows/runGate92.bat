@@ -1,6 +1,6 @@
 @echo off
 echo =========================================
-echo    Iniciando GATE 9.4.1 (Caminho Espelhado)
+echo    Iniciando GATE 9.2
 echo =========================================
 echo Certifique-se que o VcXsrv (XLaunch) esta rodando com "Disable access control" marcado.
 
@@ -13,4 +13,4 @@ docker run -it ^
     --env="QT_X11_NO_MITSHM=1" ^
     --volume="%cd%:%cd%" ^
     --workdir="%cd%" ^
-    gate90
+    gate92
