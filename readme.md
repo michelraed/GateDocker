@@ -6,7 +6,7 @@ Este repositório contém scripts de automação para instalar e executar o **GA
 
 Escolha o seu sistema operacional abaixo para visualizar as instruções de instalação e uso:
 
-### 🐧 [Linux](https://www.google.com/search?q=./Linux/readme_linux.md)
+### 🐧 [Linux](https://github.com/michelraed/GateDocker/blob/main/Linux/readme.md)
 
 * **Instalação**: Scripts `.sh` para download e configuração de tags.
 * **Requisitos**: Docker, X11 Server e permissões de grupo.
