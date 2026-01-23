@@ -43,7 +43,7 @@ Os scripts de execução (`runGate`) configuram o ambiente gráfico e montam o d
 
 ```bash
 chmod +x runGate92.sh
-./runGate90.sh
+./runGate92.sh
 
 ```
 
