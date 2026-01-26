@@ -12,5 +12,5 @@ docker run -it ^
     --env="DISPLAY=host.docker.internal:0.0" ^
     --env="QT_X11_NO_MITSHM=1" ^
     --volume="%cd%:%cd%" ^
-    --workdir="%cd%" ^
+    --workdir="//%cd%" ^
     gate941
